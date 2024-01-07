@@ -18,31 +18,30 @@ body {
 
 /* header styles */
 
-header {
+.header-container {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 808px;
+    height: 800px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
-header .header-text-container {
+.header-container .header-text-container {
     width: 520px;
     height: 220px;
-    margin: 216px 230px 364px 845px;
+    padding-top: 216px;
+    margin: 0 230px 364px 845px;
 }
 
-header .header-text-container .main-heading {
+.header-container .header-text-container .main-heading {
     color: var(--primary-dark1);
     text-align: right;
     font-family: 'Work Sans', sans-serif;
     font-size: 65px;
 }
 
-header .header-text-container .main-heading-text {
+.header-container .header-text-container .main-heading-text {
     color: var(--primary-dark2);
     text-align: right;
     font-family: 'Work Sans' sans-serif;
@@ -66,3 +65,7 @@ header .header-text-container .main-heading-text {
     cursor: pointer;
     margin: 20px 360px;
 }
+
+/* main section */
+
+/* profile picture with some text - section */
