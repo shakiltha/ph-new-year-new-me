@@ -100,11 +100,7 @@
     margin: 50px 0 50px 10px;
 }
 
-.paragraph-section .para-3,
-.para-4,
-.para-5,
-.para-6,
-.para-7 {
+.paragraph-section .para {
     color: var(--primary-dark2);
     font-family: 'Work Sans';
     font-size: 16px;
@@ -121,4 +117,40 @@
     display: flex;
 }
 
-/* profile picture with some text - section */
+/* my plans section */
+.my-plans {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-plans__para--very-big {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-plans__para--big {
+    text-align: center;
+    color: var(--primary-dark1);
+    font-family: 'Work Sans';
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 10px 0;
+}
+
+.my-plans__all-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.my-plans__para {
+    color: var(--primary-dark2);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 25px;
+    font-weight: 500;
+}
