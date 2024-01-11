@@ -4,16 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: aqua;
-}
-
 /* color variables */
 
 :root {
     --primary-dark1: #151414;
     --primary-dark2: #444343;
-    --primary-back: #f15b22;
+    --primary-background: #f15b22;
 }
 
 /* header styles */
@@ -67,5 +63,62 @@ body {
 }
 
 /* main section */
+
+/* profile and text */
+
+.profile-text-container {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text-container .paragraph-section {
+    text-align: left;
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.paragraph-section>p {
+    margin: 10px;
+}
+
+.paragraph-section .para-1 {
+    color: var(--primary-dark1);
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragraph-section .para-2 {
+    color: var(--primary-dark2);
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 50px 0 50px 10px;
+}
+
+.paragraph-section .para-3,
+.para-4,
+.para-5,
+.para-6,
+.para-7 {
+    color: var(--primary-dark2);
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.paragraph-section svg {
+    margin-left: 10px;
+}
+
+.paragraph-section .svg-para {
+    display: flex;
+}
 
 /* profile picture with some text - section */
