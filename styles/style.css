@@ -154,3 +154,51 @@
     font-size: 25px;
     font-weight: 500;
 }
+
+/* ads section */
+
+.ads {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 1300px;
+    height: 305px;
+    position: relative;
+}
+
+.ads__watch {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    opacity: .6;
+}
+
+.ads__text-and-btn {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: left;
+}
+
+.ads__text {
+    display: block;
+    color: #fff;
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.ads__btn {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    cursor: pointer;
+    border: none;
+    color: var(--primary-background);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 500;
+}
